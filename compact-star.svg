@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+<title id="title">Compact star and curved spacetime</title><desc id="desc">Original abstract scientific illustration of a luminous compact star with orbital paths and curved spacetime grid.</desc>
+<defs>
+ <radialGradient id="bg"><stop offset="0" stop-color="#164c59"/><stop offset="1" stop-color="#081e2b" stop-opacity="0"/></radialGradient>
+ <radialGradient id="star" cx="35%" cy="30%"><stop offset="0" stop-color="#f5ffe0"/><stop offset=".18" stop-color="#d8f58a"/><stop offset=".42" stop-color="#72d7c2"/><stop offset=".7" stop-color="#178a91"/><stop offset="1" stop-color="#0a3948"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="16"/></filter>
+ <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d8f58a" stop-opacity=".8"/><stop offset="1" stop-color="#72d7c2" stop-opacity=".12"/></linearGradient>
+</defs>
+<rect width="640" height="480" fill="url(#bg)"/>
+<g fill="none" stroke="#72d7c2" stroke-opacity=".22" stroke-width="1">
+ <ellipse cx="322" cy="235" rx="235" ry="98" transform="rotate(-22 322 235)"/>
+ <ellipse cx="322" cy="235" rx="270" ry="140" transform="rotate(24 322 235)"/>
+ <ellipse cx="322" cy="235" rx="196" ry="176" transform="rotate(68 322 235)"/>
+ <ellipse cx="322" cy="235" rx="155" ry="218" transform="rotate(-49 322 235)"/>
+</g>
+<g fill="none" stroke="#72d7c2" stroke-opacity=".12">
+ <path d="M30 300 Q155 240 235 250 T430 230 T620 170"/><path d="M25 325 Q155 265 240 275 T430 255 T620 195"/>
+ <path d="M30 350 Q155 290 245 300 T430 280 T620 220"/><path d="M30 375 Q155 315 250 325 T430 305 T620 245"/>
+ <path d="M170 80 Q215 170 225 250 T250 420"/><path d="M220 50 Q260 160 270 250 T295 430"/><path d="M390 55 Q360 160 355 250 T390 420"/><path d="M445 75 Q405 170 405 250 T445 400"/>
+</g>
+<circle cx="322" cy="235" r="105" fill="#49cbb9" opacity=".17" filter="url(#glow)"/>
+<circle cx="322" cy="235" r="61" fill="url(#star)"/>
+<circle cx="322" cy="235" r="76" fill="none" stroke="#d8f58a" stroke-opacity=".6"/>
+<circle cx="322" cy="235" r="90" fill="none" stroke="#72d7c2" stroke-opacity=".3" stroke-dasharray="2 8"/>
+<path d="M85 190 C170 75 420 90 555 235" fill="none" stroke="url(#line)" stroke-width="1.5"/>
+<path d="M82 270 C180 390 430 390 560 200" fill="none" stroke="url(#line)" stroke-width="1.5"/>
+<g fill="#d8f58a"><circle cx="118" cy="160" r="3"/><circle cx="510" cy="175" r="3.5"/><circle cx="455" cy="345" r="2.5"/><circle cx="160" cy="350" r="2"/></g>
+<g font-family="monospace" font-size="10" letter-spacing="2" fill="#9bc8c0"><text x="30" y="36">RELATIVISTIC COMPACT OBJECT</text><text x="430" y="450">SCHEMATIC / NOT TO SCALE</text></g>
+</svg>
