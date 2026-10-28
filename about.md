@@ -1,4 +1,0 @@
-About
-
-I am Ankit Khunt, a relativistic astrophysicist whose work centers on understanding gravity in its strongest regimes. I earned my Ph.D. in Theoretical Astrophysics from Sardar Patel University, India, in 2024, where I trained in both theoretical and computational astrophysics.
-My research asks how gravity behaves where spacetime is strongly curved and matter reaches extreme densities. I study neutron stars and black holes as natural laboratories for General Relativity and its extensions, combining semi-analytical relativistic modeling with numerical simulations so that theory is tied directly to observation.
