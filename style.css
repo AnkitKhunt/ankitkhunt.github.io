@@ -257,4 +257,28 @@
     gap: 8px;
   }
 }
+/* Clickable research results PDF */
+.results-pdf-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 22px;
+  background: var(--navy);
+  border: 1px solid var(--navy);
+  color: var(--lime);
+  font: 700 12px var(--sans);
+  text-decoration: none;
+  transition: background .2s, transform .2s;
+}
+
+.results-pdf-link span {
+  font-size: 18px;
+}
+
+.results-pdf-link:hover {
+  background: var(--navy2);
+  transform: translateY(-2px);
+}
+
 
