@@ -435,3 +435,146 @@
 }
 
 
+/* =========================================
+   SUBTLE COLOUR, DEPTH & VISUAL TEXTURE
+   Refines the existing navy / teal / lime palette
+   ========================================= */
+
+body {
+  background:
+    radial-gradient(ellipse at 8% 12%, rgba(114, 215, 194, 0.075), transparent 28rem),
+    radial-gradient(ellipse at 92% 42%, rgba(216, 245, 138, 0.055), transparent 30rem),
+    linear-gradient(180deg, #f8f9f5 0%, #f2f5f0 48%, #f8f9f5 100%);
+}
+
+.hero-noise {
+  background:
+    radial-gradient(circle at 78% 30%, rgba(114, 215, 194, 0.19), transparent 23rem),
+    radial-gradient(circle at 16% 92%, rgba(216, 245, 138, 0.075), transparent 21rem),
+    linear-gradient(120deg, transparent 38%, rgba(115, 215, 194, 0.045) 38.2%, transparent 38.55%);
+}
+
+.about.section.wrap {
+  position: relative;
+  isolation: isolate;
+  padding: clamp(30px, 4.5vw, 54px);
+  margin-top: 34px;
+  margin-bottom: 34px;
+  border: 1px solid rgba(190, 207, 197, 0.72);
+  border-radius: 18px;
+  background:
+    radial-gradient(ellipse at 100% 0%, rgba(114, 215, 194, 0.10), transparent 34%),
+    linear-gradient(135deg, rgba(255,255,255,0.96), rgba(244,248,242,0.96));
+  box-shadow: 0 18px 48px rgba(20, 41, 50, 0.045);
+}
+
+.research {
+  background:
+    radial-gradient(ellipse at 5% 8%, rgba(114, 215, 194, 0.18), transparent 34rem),
+    radial-gradient(ellipse at 96% 92%, rgba(216, 245, 138, 0.15), transparent 30rem),
+    linear-gradient(135deg, #edf3ed 0%, #e5eee8 52%, #eef3ec 100%);
+}
+
+.research-card {
+  background: linear-gradient(145deg, #ffffff 0%, #f8fbf7 72%, #f0f7f1 100%);
+  border-color: rgba(205, 220, 210, 0.95);
+  box-shadow: 0 7px 22px rgba(20, 41, 50, 0.035);
+}
+
+.research-card:hover {
+  box-shadow: 0 15px 32px rgba(20, 65, 65, 0.09);
+}
+
+.featured {
+  background:
+    radial-gradient(ellipse at 100% 12%, rgba(114, 215, 194, 0.075), transparent 30rem),
+    linear-gradient(180deg, #f8f9f5 0%, #f1f5f0 100%);
+}
+
+.featured-paper {
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 16px 42px rgba(8, 30, 43, 0.065);
+}
+
+.paper-art {
+  background:
+    radial-gradient(circle at 78% 18%, rgba(114, 215, 194, 0.22), transparent 48%),
+    linear-gradient(145deg, #0b303b 0%, #081e2b 68%, #102f38 100%);
+}
+
+.paper-copy {
+  background: linear-gradient(135deg, #ffffff 0%, #fbfcf9 100%);
+}
+
+.academic-profiles {
+  border-radius: 14px;
+  background:
+    radial-gradient(ellipse at 100% 0%, rgba(114, 215, 194, 0.17), transparent 48%),
+    linear-gradient(135deg, #edf4ee 0%, #e5efea 100%);
+}
+
+.methods {
+  background:
+    radial-gradient(ellipse at 0% 55%, rgba(114, 215, 194, 0.16), transparent 34rem),
+    radial-gradient(ellipse at 100% 0%, rgba(216, 245, 138, 0.12), transparent 28rem),
+    linear-gradient(135deg, #e9f0e9 0%, #dce9e3 100%);
+}
+
+.teaching {
+  background:
+    radial-gradient(ellipse at 92% 15%, rgba(114, 215, 194, 0.09), transparent 27rem),
+    linear-gradient(180deg, #f8f9f5 0%, #f1f5f0 100%);
+}
+
+.beyond {
+  background:
+    radial-gradient(ellipse at 82% 18%, rgba(114, 215, 194, 0.15), transparent 30rem),
+    radial-gradient(ellipse at 8% 100%, rgba(216, 245, 138, 0.075), transparent 25rem),
+    linear-gradient(120deg, #092631 0%, #0b3039 52%, #10404a 100%);
+}
+
+.contact {
+  background:
+    radial-gradient(ellipse at 100% 0%, rgba(114, 215, 194, 0.13), transparent 34rem),
+    linear-gradient(125deg, #081e2b 0%, #0a2935 58%, #0d3540 100%);
+}
+
+.profile-links a,
+.publication-links a,
+.academic-links a,
+.text-arrow {
+  transition: color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.academic-links a {
+  border-radius: 7px;
+  box-shadow: 0 3px 10px rgba(20, 41, 50, 0.035);
+}
+
+.academic-links a:hover {
+  box-shadow: 0 8px 18px rgba(20, 65, 65, 0.08);
+}
+
+@media (max-width: 680px) {
+  .about.section.wrap {
+    width: calc(100% - 24px);
+    padding: 27px 19px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 14px;
+  }
+
+  .featured-paper {
+    border-radius: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-links a,
+  .publication-links a,
+  .academic-links a,
+  .text-arrow {
+    transition: none;
+  }
+}
